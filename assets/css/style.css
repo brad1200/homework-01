@@ -1,3 +1,4 @@
+/* box-sizing give proper spacing and where the boxes are located under main image, margin hugs main image all the way to both sides of the website leaving no white spacing */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -50,15 +51,15 @@ p {
     font-size: 16px;
 }
 
-.hero {
-    height: 800px;
+/* sizes the image to fit the screen horizontally across screen */
+#hero img {
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
 
+/* applies to "search engine optimization" and "social media marketing" blue boxing, adjusting spacing of the font boxes */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -75,6 +76,7 @@ p {
     margin-left: 20px;
 }
 
+/* right-margin adds space to right side of blue box, float put the box on the right side of the 3 blue boxes on the left, width brings the box in a lot to allow it to fit next to the 3 boxes on the left, light blue background color */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -134,6 +136,7 @@ p {
     max-width: 150px;
 }
 
+/* margin-bottom is the white spacing between the blue boxes, padding puts the image and text into the middle of the box, height allows the blue box to extend so that the image is located in the blue, blue background color, white text, same for the 3 below  */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -161,6 +164,7 @@ p {
     color: #ffffff;
 }
 
+/* pixels for the image to fit in the blue box assigned, all 3 of the images below follow this */
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -197,4 +201,29 @@ p {
 
 .footer h2 {
     font-size: 20px;
+}
+
+@media screen and (max-width: 992px) {
+    #hero {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .search-engine-optimization {
+        width: auto;
+    }
+
+    .online-reputation-management {
+        width: auto;
+    }
+
+    .social-media-marketing {
+        width: auto;
+    }
+
+    .benefits {
+        width: auto;
+    }
 }
