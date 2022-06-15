@@ -5,10 +5,12 @@
     margin: 0;
 }
 
+/* gives the background that off white color */
 body {
     background-color: #d9dcd6;
 }
 
+/* gives the header spacing, colors added to background, text and font */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -16,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/* adds font size to "Horiseon" */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* makes the "seo" in "Horiseon" that tan color */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* all this allows this text to be placed into that strip of color under the blue, floated on the right side, certain font, text size, padding */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -42,11 +47,13 @@ body {
     margin-left: 25px;
 }
 
+/* text decoration take the underline away from the 3 clickable items  */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* give the paragraphs font sizes */
 p {
     font-size: 16px;
 }
@@ -65,11 +72,13 @@ p {
     margin-right: 25px;
 }
 
+/* the float puts the image on the right side of the box, the margin keeps the spacing from the image and the words  */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* the width is the length that the blue boxes have, it is spaced 20px off the left side of screen  */
 .content {
     width: 75%;
     display: inline-block;
@@ -88,6 +97,7 @@ p {
     background-color: #2589bd;
 }
 
+/* for the bottom 3 below allows margin spacing and adds text color to the elements */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -103,6 +113,7 @@ p {
     color: #ffffff;
 }
 
+/* for next 3 puts the h3 element located in the center */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -118,6 +129,7 @@ p {
     text-align: center;
 }
 
+/* for the next 3, puts the image in certain spot of the box, middle */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -177,6 +189,7 @@ p {
     max-height: 200px;
 }
 
+/* for the bottomw 3 below. font size controls the h2 making it bigger, the margin is the spacing between the h2 and the paragraph  */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -192,6 +205,7 @@ p {
     font-size: 36px;
 }
 
+/* padding is the spcae between the footer and the section above, certain texts that are available, aligns in center  */
 .footer {
     padding: 30px;
     clear: both;
@@ -199,10 +213,12 @@ p {
     text-align: center;
 }
 
+/* makes font size smaller */
 .footer h2 {
     font-size: 20px;
 }
 
+/* I spoke with a BCS Assistant and they said this didn't need  to be added but I kind of played around with it */
 @media screen and (max-width: 992px) {
     #hero {
         width: 100%;
